@@ -2,10 +2,10 @@ using System;
 
 namespace T5
 {
-    public class CalculateClass
+    public class Twin1
     {
         int l1, l2, l3, l4, l5, l6, l7;
-        public CalculateClass(int v1, int v2, int v3, int v4, int v5, int v6, int v7)
+        public Twin1(int v1, int v2, int v3, int v4, int v5, int v6, int v7, int V8)
         {
             l1 = v1;
             l2 = v2;
@@ -13,7 +13,8 @@ namespace T5
             l4 = v4;
             l5 = v5;
             l6 = v6;
-            l7 = v7;                     
+            l7 = v7;
+            l8 = v8; 
         }
     }
 }
